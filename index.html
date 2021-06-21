@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+
+<head>
+ 
+  <meta charset="utf-8">
+  <title>随机名词生成器</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1 id="title">辞藻生成</h1>
+  <li>通过点击词语来删除它</li>
+  <li>可以添加词汇</li>
+  <li>点击'生成'把任意两个名词组成词组</li>
+  <li>点击生成的词来置换其他词</li>
+
+  <div >
+    <ul class="set">
+  
+        </ul>
+  </div>
+
+  <section>
+   <button id="delete" class="btn btn-warning">一键删除</button>
+    <form action="#">
+      <div>
+        <label for="newItem">新词汇</label>
+        <input type="text" name="newItem" id="newItem" 
+               placeholder="添加新词汇" />
+        <input type="submit" value="添加" />
+      </div>
+    </form>
+  </section>
+    
+  <section>
+      <button class="btn btn-danger" id="generate"> 生成 </button>
+      <h2>生成结果</h2>
+      <div class="result" id="initR">
+      等待生成..
+      </div>
+      
+      <div  id="gR">
+          <button class="noun" id="r1"></button>
+          <button class="noun" id="r2"></button>
+
+      </div>
+      
+    </section>
+
+  <footer>
+    Made with ❤️ in Cambridge.
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>

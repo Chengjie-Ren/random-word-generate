@@ -1,0 +1,112 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+li{
+    font-family: "Arvo", cursive;
+    font-size: 1.5rem;
+    color: white;
+}
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+  padding: 20px; 
+}
+
+
+.set {
+  margin: 5% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.noun {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 2rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  #width: 150px;
+  #height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+.result{
+  outline: none;
+  border: 10px solid #243c45;
+  font-size: 3rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #db0d82;
+  text-shadow: 5px 0 #DBEDF3;
+  padding: 10px;
+  border-radius: 15px;
+  display: inline-block;
+  #width: 150px;
+  #height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+label{
+  position: relative; /* to contain absolute elements */
+  padding:10px; 
+  font-family: 'Arvo', cursive;
+  font-size: 2rem ; 
+  display: inline-block;
+  font-weight: 900;
+  color: white: 
+}
+
+input{
+  padding:10px;
+  border-radius:10px;
+}
+
+#generate{
+  margin-bottom:50px;
+  margin-top:50px;
+  font-size: 3rem;
+  border-radius: 10px;
+}
